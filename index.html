@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><head>
+<meta name="robots" content="noindex,nofollow"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bad Boy Chiller Crew — Wrapped 2017→2026</title>
+<link rel="stylesheet" href="assets/style.css"><script src="assets/data.js"></script></head><body>
+<canvas id="stars"></canvas><div id="progress"></div>
+<nav id="nav"><a href="#hero">BBCC</a><a href="#timeline">Timeline</a><a href="#eras">Eras</a><a href="#themes">Games</a><a href="#heat">Heatmap</a><a href="#words">Words</a><a href="#crew">Crew</a><a href="#awards">Awards</a><a href="#unhinged">Unhinged</a><a href="#otd">On This Day</a></nav>
+<section id="hero" class="hero">
+ <div class="kicker reveal">Danbot presents</div>
+ <h1 class="reveal glitch" data-t="BAD BOY CHILLER CREW">BAD BOY<br>CHILLER CREW</h1>
+ <div class="wrapped reveal">WRAPPED <span>2017 → 2026</span></div>
+ <div class="bigstats">
+  <div class="stat reveal"><b data-count="total">0</b><i>messages</i></div>
+  <div class="stat reveal"><b data-count="activeDays">0</b><i>days with chatter</i></div>
+  <div class="stat reveal"><b data-count="years">0</b><i>years of banter</i></div>
+  <div class="stat reveal"><b data-count="regulars">0</b><i>certified regulars</i></div>
+ </div>
+ <div class="scrollhint">scroll ↓</div>
+</section>
+<section id="timeline"><h2 class="reveal">Nine years, one chat</h2><p class="sub reveal">Messages per month in #general & friends. Hover for details.</p>
+ <div class="chartwrap reveal"><svg id="monthChart"></svg><div id="tip"></div></div>
+ <div class="busy reveal"><h3>The 10 loudest days ever</h3><div id="busiest"></div></div></section>
+<section id="eras"><h2 class="reveal">The Eras</h2><div id="eraList"></div></section>
+<section id="themes"><h2 class="reveal">What we actually did</h2><p class="sub reveal">The five pillars of the crew, mined from public chat.</p><div id="themeGrid" class="grid3"></div></section>
+<section id="heat"><h2 class="reveal">When the crew is online</h2><p class="sub reveal">Messages by weekday × hour (Eastern).</p>
+ <div class="tabs reveal" id="heatTabs"></div><div class="reveal" id="heatmap"></div><div id="heatNote" class="sub"></div></section>
+<section id="words"><h2 class="reveal">The crew's vocabulary</h2><p class="sub reveal">Most-used words across the whole archive (filler words removed).</p><canvas id="cloud" class="reveal"></canvas></section>
+<section id="crew"><h2 class="reveal">Meet the Crew</h2><p class="sub reveal">18 regulars. Tap a card for the full dossier.</p><div id="cards" class="cards"></div></section>
+<section id="awards"><h2 class="reveal">🏆 The Awards Ceremony</h2><p class="sub reveal">The envelopes, please. Tap each to reveal.</p><div id="awardGrid" class="grid3"></div></section>
+<section id="lore"><h2 class="reveal">Lore & Legends</h2><div id="loreGrid" class="grid3"></div></section>
+<section id="unhinged"><h2 class="reveal">🔥 Unhinged Hall of Fame</h2><p class="sub reveal">Embarrassing-but-legendary moments. Shuffle for more.</p>
+ <div class="tabs reveal"><button id="mmShuf" class="on">🔀 shuffle</button></div><div id="mmGrid" class="grid3"></div>
+ <h3 style="margin-top:40px" class="reveal">Most-reacted messages</h3><div id="reactList" class="grid3"></div></section>
+<section id="otd"><h2 class="reveal">📅 On This Day</h2><p class="sub reveal">Pick a date. See what the crew was saying.</p>
+ <div class="otdctl reveal"><button id="otdPrev">‹</button><input type="date" id="otdDate"><button id="otdNext">›</button><button id="otdRand">🎲 random</button></div><div id="otdList"></div></section>
+<section class="outro"><h2 class="reveal">GG, crew.</h2><p class="reveal sub">Here's to the next 43,893. — Danbot 🤖</p><p class="tiny">Built from public channels only. Stats are approximate; quotes filtered to keep it friendly.</p></section>
+<div id="modal"><div class="mbox"><button id="mclose">✕</button><div id="mbody"></div></div></div>
+<canvas id="confetti"></canvas>
+<section style="max-width:720px;margin:2em auto;padding:0 1em"><h2>Recap video</h2><video controls playsinline preload="metadata" style="width:100%;border-radius:12px" src="assets/crew-wrapped-recap.mp4"></video></section>
+<script src="assets/app.js"></script></body></html>
